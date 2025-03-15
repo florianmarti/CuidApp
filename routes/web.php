@@ -11,6 +11,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+//De que se trata//
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
 
 // Rutas relacionadas con el Dashboard
 Route::get('/dashboard', [DashboardController::class, 'index'])
