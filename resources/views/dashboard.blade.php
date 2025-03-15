@@ -8,11 +8,11 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <!-- Mostrar mensajes de estado -->
-            @if (session('status'))
+            {{-- @if (session('status'))
                 <div class="bg-green-700 p-4 rounded-md mb-4 text-white">
                     {{ session('status') }}
                 </div>
-            @endif
+            @endif --}}
             <!-- Mostrar mensajes de error -->
             @if (session('error'))
                 <div class="bg-red-700 p-4 rounded-md mb-4 text-white">
